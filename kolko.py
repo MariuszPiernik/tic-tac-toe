@@ -273,7 +273,7 @@ def komp(t):
         elif t[i + 3] == t[i + 6] and t[i + 3] == "\033[0;34mo\033[0m" and t[i] != "\033[0;33mx\033[0m" and t[i] != "\033[0;34mo\033[0m":
             return i
         elif t[i] == "\033[0;34mo\033[0m" and t[i + 6] == "\033[0;34mo\033[0m" and t[i + 3] != "\033[0;33mx\033[0m" and t[i + 3] != "\033[0;34mo\033[0m":
-            return i + 1
+            return i + 3
         i += 1
     i = 1
     while i < 8:
