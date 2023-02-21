@@ -35,7 +35,7 @@ def wizualizacja():
 
 
 def samouczek():
-    print("Serio? xd")
+    print("Rozpoczac samouczek?")
     time.sleep(1)
     while True:
         zapytanie1 = input("tak/nie\n").lower()
